@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+    <apn
+        mcc="208"
+        mnc="10"
+        carrier="SFR webphone"
+        apn="sl2sfr"
+        mmsc="http://mms1"
+        mmsport="8080"
+        mmsproxy="10.151.0.1"
+        mvno_match_data="Coriolis"
+        mvno_type="spn"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl,dun,mms,hipri,xcap,ut,fota,cbs"
+    />
+    <apn
+        mcc="208"
+        mnc="10"
+        carrier="Keyyo Mobile Internet"
+        apn="sl2sfr"
+        authtype="0"
+        mmsc="http://mms1"
+        mmsproxy="10.151.0.1"
+        mvno_match_data="Keyyo Mobile"
+        mvno_type="spn"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,hipri,mms"
+    />
+    <apn
+        mcc="208"
+        mnc="10"
+        carrier="Internet RegloMobile"
+        apn="sl2sfr"
+        mmsc="http://mms1"
+        mmsport="8080"
+        mmsproxy="10.151.0.1"
+        mvno_match_data="RegloMobile"
+        mvno_type="spn"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms"
+    />
+    <apn
+        mcc="208"
+        mnc="10"
+        carrier="Web La Poste Mobile"
+        apn="sl2sfr"
+        mmsc="http://mmsdebitel"
+        mmsport="8080"
+        mmsproxy="10.143.156.3"
+        mvno_match_data="La Poste Mobile"
+        mvno_type="spn"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl,mms"
+    />
+</apns>

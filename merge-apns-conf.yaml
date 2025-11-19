@@ -53,6 +53,50 @@ overrides:
     protocol: IPV4V6
     roaming_protocol: IPV4V6
 - match:
+    carrier: SFR attach
+    carrier_id: '27'
+    mcc: '208'
+    mnc: '09'
+    apn: ''
+    type: ia
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: SFR webphone
+    carrier_id: '27'
+    mcc: '208'
+    mnc: '09'
+    apn: sl2sfr
+    type: default,mms,supl,dun,hipri,xcap
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: SFR attach
+    carrier_id: '27'
+    mcc: '208'
+    mnc: '10'
+    apn: ''
+    type: ia
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
+    carrier: SFR webphone
+    carrier_id: '27'
+    mcc: '208'
+    mnc: '10'
+    apn: sl2sfr
+    type: default,mms,supl,dun,hipri,xcap
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    roaming_protocol: IPV4V6
+- match:
     carrier: TURKCELL INTERNET
     carrier_id: '1735'
     mcc: '286'
